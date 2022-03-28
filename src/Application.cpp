@@ -186,7 +186,7 @@ int main()
         //lightingShader.SetUniform3f("objectColor", color[0],color[1],color[2]);
         //lightingShader.SetUniform3f("lightColor", 1.0f, 1.0f, 1.0f);
         lightingShader.SetUniform3f("material.ambient", glm::vec3(1.0f, 0.5f, 0.31f));
-        lightingShader.SetUniform3f("material.diffuse", glm::vec3(1.0f, 0.5f, 0.31f));
+        lightingShader.SetUniform3f("material.diffuse", glm::vec3(1.0f, 0.3f, 0.31f));
         lightingShader.SetUniform3f("material.specular", glm::vec3(0.5f, 0.5f, 0.5f));
         lightingShader.SetUniform1f("material.shininess", 32.0f);
         lightingShader.SetUniform3f("light.ambient", ambientColor);
