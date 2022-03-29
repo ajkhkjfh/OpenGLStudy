@@ -1,18 +1,1 @@
-﻿  Application.cpp
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(196,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(210,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(211,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(212,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-  OpenGLStudy.vcxproj -> D:\C&C++\learnopengl\OpenGLStudy\x64\Debug\OpenGLStudy.exe
+﻿  OpenGLStudy.vcxproj -> D:\C&C++\learnopengl\OpenGLStudy1\x64\Debug\OpenGLStudy.exe

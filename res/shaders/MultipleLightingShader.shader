@@ -65,7 +65,7 @@ struct SpotLight {
     float quadratic;
   
     vec3 ambient;
-    vec3 diffuse;
+    sampler2D diffuse;
     vec3 specular;       
 };
 
@@ -165,7 +165,7 @@ vec3 CalcSpotLight(SpotLight light, vec3 normal, vec3 WorldPos, vec3 viewDir)
     float intensity = clamp((theta - light.outerCutOff) / epsilon, 0.0, 1.0);
     // combine results
     vec3 ambient = light.ambient * vec3(texture(material.diffuse, TexCoords));
-    vec3 diffuse = light.diffuse * diff * vec3(texture(material.diffuse, TexCoords));
+    vec3 diffuse = vec3(texture(light.diffuse,TexCoords)) * diff * vec3(texture(material.diffuse, TexCoords));
     vec3 specular = light.specular * spec * vec3(texture(material.specular, TexCoords));
     ambient *= attenuation * intensity;
     diffuse *= attenuation * intensity;

@@ -1,1 +1,2 @@
 D:\C&C++\learnopengl\OpenGLStudy\x64\Debug\OpenGLStudy.exe
+D:\C&C++\learnopengl\OpenGLStudy1\x64\Debug\OpenGLStudy.exe
