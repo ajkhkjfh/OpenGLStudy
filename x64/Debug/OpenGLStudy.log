@@ -1,22 +1,16 @@
 ﻿  Application.cpp
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(175,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(189,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(196,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(210,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(190,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(211,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(191,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(200,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(201,93): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+D:\C&C++\learnopengl\OpenGLStudy\src\Application.cpp(212,27): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float

@@ -127,5 +127,8 @@
     <None Include="res\shaders\Basic.shader" />
     <None Include="res\shaders\LightCubeShader.shader" />
     <None Include="res\shaders\LightingShader.shader" />
+    <None Include="res\shaders\PointLightingShader.shader" />
+    <None Include="res\shaders\SpotLightingShader.shader" />
+    <None Include="res\shaders\MultipleLightingShader.shader" />
   </ItemGroup>
 </Project>
